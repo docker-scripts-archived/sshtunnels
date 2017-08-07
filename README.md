@@ -1,5 +1,5 @@
 ssh tunnels
------------
+===========
 
 These scripts help to create ssh tunnels between two computers that
 don't have public IP.  One of them is called the **server** because it
@@ -28,6 +28,9 @@ server.
      +----------------+                      +-----------------+
                                          ssh -p 2201 user@localhost
 ```
+
+For more details about sshtunnels see: http://dashohoxha.fs.al/sshtunnels/
+
 
 ## Installation
 
