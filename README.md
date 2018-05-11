@@ -41,19 +41,9 @@ For more details about sshtunnels see: http://dashohoxha.fs.al/sshtunnels/
 
   - Create a directory for the container: `ds init sshtunnels @ssht`
 
-  - Fix the settings:
-    ```
-    cd /var/ds/ssht/
-    vim settings.sh
-    ds info
-    ```
+  - Fix the settings: `cd /var/ds/ssht/; vim settings.sh`
 
-  - Build image, create the container and configure it:
-    ```
-    ds build
-    ds create
-    ds config
-    ```
+  - Build image, create the container and configure it: `ds make`
 
 
 ## Usage

@@ -3,7 +3,7 @@ IMAGE=sshtunnels
 CONTAINER=sshtunnels
 
 PROXY_SERVER=sshtunnels.example.org    ### or IP of the proxy server
-PROXY_SSH_PORT=2222
+PROXY_SSH_PORT=22022
 
 PORTS="$PROXY_SSH_PORT:22"
 
